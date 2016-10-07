@@ -29,8 +29,10 @@ var myObj = {
 
 objValues(myObj);
 //==> [10, 200, 3000, 'fourty thousand']
+
 objValues(myObj, {reverse: true});
 //==> ['fourty thousand', 3000, 200, 10]
+
 objValues({foo: "bar", baz: "quux", fooBar: "norf"});
 //==> ['bar', 'quux', 'norf']
 ```
