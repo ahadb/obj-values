@@ -14,8 +14,8 @@ module.exports = objValues;
 
 function objValues(obj, options) {
   options = getinit(options);
-  var keys = Object.keys(obj);
-  var val = [];
+  const keys = Object.keys(obj);
+  const val = [];
 
   if (Array.isArray(obj)) {
     throw new Error('Expects object as paramater');

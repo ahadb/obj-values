@@ -3,7 +3,10 @@ const expect = require('chai').expect;
 
 const objValues = require('../index');
 
-const obj = {a: 1, b: 2, c: 'three'};
+const obj = { a: 1,
+	            b: 2,
+	            c: 'three'
+            };
 
 
 describe('#objValues', function() {
@@ -42,7 +45,4 @@ describe('#objValues', function() {
 		const result = objValues(obj, {reverse: true});
 		expect(result).to.have.members(['three', 2, 1]);
 	});
-
-
-
 });

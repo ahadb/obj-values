@@ -47,12 +47,16 @@ This module uses gulp for eslint, mocha, and code coverage tools.
 
 Run `gulp init`
 
-```javascript
-//
-```
+```bash
+#objValues
+    ✓ should return an array
+    ✓ expect result to be ok
+    ✓ expect result to be ok
+    ✓ should return the appropriate members
+    ✓ last property should be a three
+    ✓ last property should be a three, a string
+    ✓ should return the appropriate members in reverse order
 
-```javascript
-//
 ```
 
 ##Related Modules
