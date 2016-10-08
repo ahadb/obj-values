@@ -22,15 +22,25 @@ describe('#objValues', function() {
 		expect(result).to.have.length.of.at.least(3);
 	});
 
-	it('should return the third element as a string', function() {
+	it('should return the appropriate members', function() {
 		const result = objValues(obj);
 		expect(result).to.have.members([1, 2, 'three']);
 	});
 
-	it('should return the third element as a string', function() {
+	it('last property should be a three', function() {
+		const result = objValues(obj);
+		expect(result).to.have.property([2], 'three');
+	});
+
+	it('last property should be a three, a string', function() {
 		const result = objValues(obj);
 		expect(result).to.have.property([2], 'three')
 			.that.is.a('string');
+	});
+
+	it('should return the appropriate members in reverse order', function() {
+		const result = objValues(obj, {reverse: true});
+		expect(result).to.have.members(['three', 2, 1]);
 	});
 
 
