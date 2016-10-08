@@ -20,7 +20,7 @@ describe('#objValues', function() {
 		expect(result).to.be.ok;
 	});
 
-	it('expect result to be ok', function() {
+	it('expect result to be at least 3', function() {
 		const result = objValues(obj);
 		expect(result).to.have.length.of.at.least(3);
 	});
