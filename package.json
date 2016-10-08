@@ -25,7 +25,8 @@
     "gulp": "^3.9.0",
     "gulp-eslint": "^1.1.1",
     "gulp-istanbul": "^0.10.3",
-    "gulp-mocha": "^2.2.0"
+    "gulp-mocha": "^2.2.0",
+    "param-options": "^0.0.1"
   },
   "keywords": [
     "obj",
