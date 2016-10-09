@@ -1,6 +1,6 @@
 {
   "name": "obj-values",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Retrieve the values of an enumerable object and optionally reverse",
   "homepage": "https://github.com/ahadb/obj-values#readme",
   "author": "Ahad Bokhari <ahadbokhari@gmail.com> (http://ahadb.com)",
