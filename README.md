@@ -66,6 +66,7 @@ Run `gulp init`
 * [node-camel-case](https://github.com/ahadb/node-camel-case)
 * [kebab-caseify](https://github.com/ahadb/kebab-caseify)
 * [is-even-integer](https://github.com/ahadb/is-even-integer)
+* [is](https://github.com/ahadb/is)
 
 ##Contributing
 
