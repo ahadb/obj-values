@@ -1,19 +1,19 @@
 # obj-values
 Retrieve the values of an enumerable object.
 
-##Overview
+## Overview
 
 Use this node module when you need to retrieve values from an enumerable object - `obj-values` outputs an array,
 has an optional reverse param.
 
-##Installing 
+## Installing 
 Install with [npm](https://www.npmjs.com/package/obj-values)
 
 ```javascript
 npm i obj-values --save-dev
 ```
 
-##Usage
+## Usage
 
 Simply require the `obj-values` module. The export function can be used in any module you desire:
 
@@ -37,11 +37,7 @@ objValues({foo: "bar", baz: "quux", fooBar: "norf"});
 //==> ['bar', 'quux', 'norf']
 ```
 
-##TODO
-
-* commit tests
-
-##Tests
+## Tests
 
 This module uses gulp for eslint, mocha, and code coverage tools.
 
@@ -58,7 +54,7 @@ Run `gulp init`
     ✓ should return the appropriate members in reverse order
 ```
 
-##Related Modules
+## Related Modules
 
 * [node-range](https://github.com/ahadb/node-range)
 * [first-of-array](https://github.com/ahadb/first-of-array)
